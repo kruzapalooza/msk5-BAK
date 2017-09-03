@@ -1,0 +1,23 @@
+<div class="row-flex">
+
+	<div class="pic">
+		<img src="/images/preteens.jpg" />
+	</div>
+
+	<div class="blurb-links">
+		<p class="paragraph-text"> 
+			This is an essay I wrote recounting a fun yet unexpectedly scary day with my grandpa at Busch Gardens, appeared in Chicken Soup For The Soul Just For PreteensⒸ, an anthology of encouraging stories about that tumultuous time of youth.
+		
+		</p>
+
+		<% for (i=0 ; i<articleUrls.length ; i++) { %>
+		  <a class="front-link" href="<%= articleUrls[i].url %>">
+		    <%= articleUrls[i].shortname %>
+		  </a>
+		<% } %>
+
+		
+
+	</div>
+
+</div>

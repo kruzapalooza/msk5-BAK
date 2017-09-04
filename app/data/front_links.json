@@ -9,16 +9,8 @@
       "shortname": "Article"
     },
     {
-      "url" : "#",
-      "shortname": "Review"
-    },
-    {
-      "url" : "#",
+      "url" : "http://marckruza.com/blog",
       "shortname": "Blog"
-    },
-    {
-      "url" : "#",
-      "shortname": "Events"
     },
     {
       "url" : "/media",

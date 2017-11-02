@@ -10,7 +10,7 @@
   "license": "Kruzapalooza, LLC",
   "dependencies": {
     "ejs": "^2.5.7",
-    "express": "^4.14.0",
+    "express": "^4.15.5",
     "google-fonts": "^1.0.0",
     "jquery": "^3.2.1",
     "nodemon": "^1.11.0",

@@ -1,5 +1,6 @@
 ---
 title: Reasons to Rip Up, Winnable Wars and Other Odysseys
+tags: fitness
 ---
 
 Are you a control freak that feels like everything is out of control? Do your projects at work seem like chaos no matter how much order you try to bring? Do you feel like your family, friends and kids never listen? Here's how to escape: hit the gym. 

@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "msk5",
+            "script": "npm",
+            "args": "start"
+        }
+    ]
+}

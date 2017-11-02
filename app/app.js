@@ -1,3 +1,5 @@
+#!/usr/bin/env nodejs 
+
 var express = require('express');
 var reload = require('reload');
 var app = express();
@@ -7,7 +9,7 @@ var dataArticle = 	require('./data/article_links.json');
 var dataSocial  = 	require('./data/social_links.json');
 var dataMedia   = 	require('./data/media_links.json');
 
-app.set('port', process.env.PORT || 3000 );
+app.set('port', process.env.PORT || 8080 );
 
 // data files
 app.set('appData',    dataFile) ;
@@ -33,7 +35,7 @@ app.use(require('./routes/about'));
 
 // app.use(express.favicon("/public/images/favicon.ico"));
 
-var server = app.listen(app.get('port'), function() {
+var server = app.listen(app.get('port'), '162.243.15.50', function() {
   console.log('Listening on port ' + app.get('port'));
 });
 
